@@ -1,0 +1,326 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+
+}
+.body {
+ 
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 43px;
+  position: fixed;
+  width: 100%;
+  padding: 1rem 2rem;
+}
+.logo > img {
+  height: 70px;
+}
+
+.navegacion > a {
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 32px;
+  color: black;
+}
+.navegacion {
+  margin-left: 260px;
+}
+.navegacion > a:hover {
+  color: #adb5bd;
+}
+h1{
+  font-size: 30px;
+}
+/* -------------------------------------------------------------- */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 59px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  padding: 1rem 2rem;
+}
+.logo > img {
+  height: 70px;
+}
+
+.navegacion > a {
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 32px;
+  color: black;
+}
+.navegacion {
+  margin-left: 260px;
+}
+.navegacion > a:hover {
+  color: #adb5bd;
+}
+
+.buscar {
+  padding-right: 50px;
+}
+.buscar input {
+  width: 240px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: #000;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+}
+
+/* ------------section--------------- */
+.principal {
+  padding-top: 105px;
+  display: flex;
+ background-color :rgb(229, 231, 235);
+  /* border: 2px solid; */
+}
+.smas {
+  margin: 10px;
+}
+.productos {
+  justify-content: center;
+}
+
+.heder {
+  width: 644px;
+  padding-top: 100px;
+  margin-left: 40px;
+}
+.t {
+  font-size: 86px;
+}
+.r1 {
+  color: rgb(207, 25, 50);
+}
+.r2 {
+  color: rgb(247, 140, 15);
+}
+.tr2 {
+  font-size: 22px;
+}
+.presio {
+  font-size: 44px;
+  padding-left: 35px;
+}
+.carrito {
+  font-size: 36px;
+}
+.comprar > a {
+  font-size: 36px;
+  text-decoration: none;
+  color: black;
+}
+.comprar {
+  border: 1px solid #008000;
+  border-radius: 4px;
+  width: 247px;
+  height: 62px;
+  text-align: center;
+  transition: all 400ms ease;
+}
+.comprar:hover {
+  background-color: #38b000;
+  color: #fff;
+}
+
+/* -----------------reloj------------------------- */
+.reloj {
+  height: 531px;
+  width: 539px;
+}
+.smas {
+  width: 500px;
+  height: 492px;
+  background-color: rgb(247, 140, 15);
+}
+.imagen {
+  display: flex;
+  justify-content: flex-end;
+}
+/* --------------------producntos_containaer_esto es para ti------------------------------------------ */
+.container {
+  width: 100%;
+  display: flex;
+  max-width: 2000px;
+ 
+}
+h3{
+  color: rgb(207, 25, 50);
+}
+.buscar {
+  padding-right: 50px;
+}
+.buscar input {
+  width: 240px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: #000;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+}
+.card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: rgb(250, 252, 253);
+  box-shadow: 0px 10px rgb(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+ 
+}
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translate(-3%);
+}
+.card img {
+  width: 100%;
+  height: 210px;
+}
+.card .contenido {
+  padding: 15px;
+  text-align: center;
+}
+.card .contenido p {
+  line-height: 1.5;
+  color: #6a6a6a;
+}
+.contenido h3 {
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.contenido a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #008000;
+  border: 1px solid #008000;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+.contenido > a:hover {
+  background-color: #008000;
+  color: #fff;
+}
+
+/* -----------------------Descubre------------------ */
+.descubre {
+  padding-left: 35px;
+}
+.adicional {
+  display: flex;
+}
+.caja {
+  width: 638px;
+  height: 369px;
+}
+.mas > p {
+  width: 134px;
+  height: 42px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #008000;
+  border: 1px solid #008000;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+.mas > p:hover {
+  background-color: #008000;
+  color: #fff;
+}
+/* -----------------footer------------------------- */
+.info {
+    padding-left: 35px;
+ 
+    height: 231px;
+    background-color: #eeeeee;
+  }
+  .box{
+    width: 373px;
+  }
+  .final {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .iconosfinales {
+    font-size: 65px;
+    color: rgb(34, 198, 20);
+  }
+  .iconosfinales:hover {
+    background-color: rgb(229, 231, 235);
+  }
+  .final {
+    margin-top: 30px;
+  }
+  /* ------------------------------- */
+  .correo{
+    border: 1px solid #008000;
+    width: 391px;
+    height: 49px;
+    display: flex;
+    margin: 50px;
+    margin-left: 850px;
+    text-align: center;
+    border-radius: 4px;
+  
+}
+.email{
+  font-size: 36px;
+  margin-left: 20px;
+
+}
+.correo:hover{
+  background-color:rgb(229, 231, 235);
+  cursor:pointer;
+  }
+  .descripsion{
+    padding-top: 20px;
+    height: 132px;
+  }
+/* --------------redes----------------- */
+.redes {
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 26px;
+}
+.yo {
+  text-align: center;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  font-size: 26px;
+}
+p {
+  font-size: 20px;
+}
+
+/* ---------------------@Media---------------------------- */
+@media only screen and (min-width: 768px){
+  .menu{
+
+  }
+}
+
+
+
